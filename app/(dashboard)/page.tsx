@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { UserButton } from "@clerk/nextjs";
 
-export default function Home() {
+export default function DashboardPage() {
   return (
     <div className="flex flex-col gap-y-4">
       <div>
-        <UserButton /> This is a screen for authenticated users only
+        Dashboard Root page
       </div>
     </div>
   );
