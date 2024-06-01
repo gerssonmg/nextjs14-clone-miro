@@ -26,7 +26,7 @@ const SearchInput = () => {
         const url = qs.stringifyUrl({
             url: "/",
             query: {
-                search: debouncedValue
+                search: debouncedValue.toString() // Convert debouncedValue to a string
             }
         }, { skipEmptyString: true, skipNull: true });
 
